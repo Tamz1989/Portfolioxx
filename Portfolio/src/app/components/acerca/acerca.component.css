@@ -6,29 +6,30 @@ div{
     text-align: center;
 }
 
+
+/*Estilo Foto de Perfil */
+@media ( min-width: 576px){
+    #fotodeperfil{
+        width: 18%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 10px;
+        top: 50%;
+        position:absolute
+    }
+}
+@media (min-width: 575px){
+    #fotodeperfil{
+        width: 18%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 10px;
+        top: 75%;
+        position:absolute
+    }
+}
 /*etiqueta nombre */
 #nombre{
     font-weight: bold;
     margin-top: 30%;
-}
-/*Estilo Foto de Perfil */
-@media (min-width: 575px){
-    #fotodeperfil{
-        position: absolute;
-        width: 18%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px gray;
-        left: 0.5%;
-        top: 340px;
-    }
-}
-@media (min-width: 576px){
-    #fotodeperfil{
-        position: absolute;
-        width: 18%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px gray;
-        left: 0.5%;
-        top: 480px;
-    }
 }
